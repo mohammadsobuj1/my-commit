@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money master</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ <h1 class="text-4xl font-bold mt-3 mb-4 text-center bg-slate-200 w-[75% mx-auto]">$$Money Master$$</h1>
+    <div class="grid grid-cols-2 gap-8 place-content-center w-[75%] mx-auto bg-green-400 mt-5 px-">
+        <div> <img src="img/Screenshot 2023-02-16 010707.png" alt=""> </div>
+        <div class="mt-5 w-[60%] mx-auto">
+ <h1 class="font-semibold text-2xl mb-5 ">income</h1>
+
+ <p class="">income:
+     <input id="incom-field" class="ml-2" type="text">
+    </p>
+ <p class="my-4 ml-16 text-medium font-semibold">
+    Expance
+</p>
+ <p> Rant :<input id="Rant-field" class="ml-5 my-2" type="text">
+
+</p>
+ <p> Food:<input id="food-field" class="ml-5 my-3" type="text">
+
+</p>
+ <p> Other:<input id="other-field" class="ml-4 my-2" type="text">
+</p>
+<button id="claculate-btn" class="bg-blue-400 px-8 py-1 mt-3 ml-16">calculate</button>
+
+<h2 class="my-5 ml-12 text-xl font-semibold">Total Expance: $<span id="total-expance">00</span> </h2>
+<h2 class="my-5 ml-16 text-xl font-semibold">Blance: $<span id="total-blance">00</span> </h2>
+
+    <p class="">Save:<input id="save-field" class="w-[25%] ml-5" type="text"> <span class="ml-2 text-xl font-semibold">%</span>
+
+          <button id="save-btn" class="mx-4 text-xl font-semibold bg-blue-400 px-8 py-1 mt-3 "> Save</button> 
+
+         </p>
+   <h2 class="my-4 text-xl font-bold">Save Amount: $<span id="save-blance">00</span>  </h2>
+   <h2 class=" text-xl font-bold">Remaining Blance:$<span id="last-balance">00</span>  </h2>
+
+        </div>     
+      </div>
+
+   <section>
+    
+   </section>
+
+<script src="js/claculate.js"></script>
+</body>
+</html>
